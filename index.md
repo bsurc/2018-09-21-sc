@@ -2,19 +2,19 @@
 layout: workshop      # DON'T CHANGE THIS.
 carpentry: "swc"    # what kind of Carpentry (must be either "dc" or "swc")
 venue: "Boise State University"        # brief name of host site without address (e.g., "Euphoric State University")
-address: "Jordan Ball Room, Student Union Building, Boise State University, 1910 University Dr., Boise, ID 83725"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
+address: "Simplot Ball Room, Student Union Building, Boise State University, 1910 University Dr., Boise, ID 83725"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
 country: "us"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
 latlng: "43.604172,-116.209994"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use http://www.latlong.net/)
-humandate: "March 15-16, 2018"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humantime: "8:00 am - 4:30 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
-startdate: 2018-03-15      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
-enddate: 2018-03-16        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["Eric Jankowski", "Vicken Hillis", "Eric Hayden", "Brian Jackson", "Dylan Mikesell", "Mike Henry", "Richard Elliott", "Mathew Jones"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["Amber Sherman", "Lejo Flores", "Kyle Shannon", "Tyler Phillips", "Marwan Albahar", "	Dhanush Kumar Ratakonda"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+humandate: "September 21, 2018"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humantime: "8:00 am - 5:00 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
+startdate: 2018-09-21      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
+enddate: 2018-09-21        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
+instructor: ["Eric Jankowski", "Mike Henry", "Mathew Jones"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+helper: ["Kyle Shannon"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["researchcomputing@boisestate.edu"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
-collaborative_notes: https://etherpad.boisestate.edu/p/rcdays-2018   # optional: URL for the workshop Etherpad if there is one
-eventbrite: "43667457541" # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
+collaborative_notes: https://etherpad.boisestate.edu/p/sc-09-2018   # optional: URL for the workshop Etherpad if there is one
+# eventbrite: "43667457541" # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
 
 {% comment %} See instructions in the comments below for how to edit specific sections of this workshop template. {% endcomment %}
@@ -622,6 +622,7 @@ eventbrite: "43667457541" # optional: alphanumeric key for Eventbrite registrati
 {% endcomment %}
 </div> {% comment %} End of 'Python' section. {% endcomment %}
 
+<!--
 <div id="r"> {% comment %} Start of 'R' section. {% endcomment %}
   <h3>R</h3>
 
@@ -672,8 +673,10 @@ eventbrite: "43667457541" # optional: alphanumeric key for Eventbrite registrati
     </div>
   </div>
 </div> {% comment %} End of 'R' section. {% endcomment %}
+-->
 
-<div id="matlab"> <!-- Start of 'MATLAB' section. -->
+<!--
+<div id="matlab"> 
   <h3>MATLAB</h3>
 
   <p>
@@ -691,6 +694,7 @@ eventbrite: "43667457541" # optional: alphanumeric key for Eventbrite registrati
     <li>MATLAB can be accessed <a href="https://www.mathworks.com/products/matlab-online.html">online.</a></li>
   </ul>
   </p>
+-->
 
 <!--
 <div id="sql"> {% comment %} Start of 'SQLite' section. {% endcomment %}
