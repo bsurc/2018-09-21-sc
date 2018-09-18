@@ -299,7 +299,6 @@ collaborative_notes: https://etherpad.boisestate.edu/p/sc-09-2018   # optional: 
   <ul>
    <li><a href="https://codelab.boisestate.edu">codelab.boisestate.edu</a></li>
    <li><a href="https://jupyter.boisestate.edu">jupyter.boisestate.edu</a></li>
-   <li><a href="https://datascience.boisestate.edu">datascience.boisestate.edu</a></li>
   </ul>
   This may be a better option for windows users.  Mac and Linux users usually have git and bash installed.
   
